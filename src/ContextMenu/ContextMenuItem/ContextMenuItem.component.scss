@@ -1,0 +1,35 @@
+.context_menu_item {
+  padding: 5px 20px;
+
+  .context_menu_item-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+
+    .hotkey {
+      text-align: right;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  &.menu_entry {
+    &:hover {
+      background-color: #2477ce;
+      color: white;
+    }
+  }
+
+  &.separator {
+    hr {
+      width: calc(100% + 20px);
+      margin: 0px;
+      margin-left: -10px;
+      display: block;
+      border: 0;
+      border-top: 1px solid #ccc;
+    }
+  }
+}

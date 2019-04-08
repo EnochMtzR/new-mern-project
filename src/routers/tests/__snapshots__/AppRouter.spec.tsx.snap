@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing AppRouter.tsx Should render component Correctly 1`] = `
+<IntlProvider
+  key="es"
+  locale="es"
+  messages={
+    Object {
+      "Footer.language.english": "Inglés",
+      "Footer.language.spanish": "Español",
+      "Header.about": "Acerca de Nosotros",
+      "Header.modules": "Módulos",
+      "Header.news": "Noticias",
+      "Header.support": "Soporte",
+      "Header.userMenu.signIn": "Iniciar Sesión",
+      "LoginForm.errorDisplay": "¡Oops! Parece que las credenciales provistas son incorrectas. Por favor intente denuevo.",
+      "LoginForm.login": "Entrar",
+      "LoginForm.password": "Contraseña",
+      "LoginForm.user": "Usuario",
+    }
+  }
+>
+  <BrowserRouter>
+    <div>
+      <Header
+        invisible={true}
+      />
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          path="/signIn/"
+        />
+        <Route
+          component={[Function]}
+        />
+      </Switch>
+      <Connect(Footer) />
+    </div>
+  </BrowserRouter>
+</IntlProvider>
+`;

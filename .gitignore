@@ -1,0 +1,10 @@
+node_modules/
+public/dist/
+coverage/
+lib/
+server.crt
+server.csr
+server.key
+**/*.back
+bin/**/*
+release/**/*

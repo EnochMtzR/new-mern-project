@@ -1,0 +1,28 @@
+GET https://localhost:3000/room-availability/20180202 HTTP/1.1
+showrsc: 1
+HotelCode: 1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVUlkIjoiMWY4MjU5YjEtYzlhYS00N2MzLThmNzYtNTE2NjMxYTMzOWFjIiwidXNlcklkIjoiNWM3ZWYxOTIwZjM3NTI0MDA5MzIzYjZkIiwibmFtZSI6IkFkbWluIiwiaWF0IjoxNTUxODgzOTUzLCJleHAiOjE1NTE5NzAzNTN9.BuHei_tDJRQFVq1Y2hzxFxNCaFyw6ShreNXxi6LA-SA
+
+####################################
+GET https://localhost:3000/hotel-status/ HTTP/1.1
+HotelCode: 1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVUlkIjoiMWY4MjU5YjEtYzlhYS00N2MzLThmNzYtNTE2NjMxYTMzOWFjIiwidXNlcklkIjoiNWM3ZWYxOTIwZjM3NTI0MDA5MzIzYjZkIiwibmFtZSI6IkFkbWluIiwiaWF0IjoxNTUxODgzOTUzLCJleHAiOjE1NTE5NzAzNTN9.BuHei_tDJRQFVq1Y2hzxFxNCaFyw6ShreNXxi6LA-SA
+
+########################################
+GET https://localhost:3000/detailed-forecast HTTP/1.1
+startDate: 20180202
+endDate: 20180202
+notGuaranteed: 1
+Incomes: 1
+HotelCode: 1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVUlkIjoiMWY4MjU5YjEtYzlhYS00N2MzLThmNzYtNTE2NjMxYTMzOWFjIiwidXNlcklkIjoiNWM3ZWYxOTIwZjM3NTI0MDA5MzIzYjZkIiwibmFtZSI6IkFkbWluIiwiaWF0IjoxNTUxODgzOTUzLCJleHAiOjE1NTE5NzAzNTN9.BuHei_tDJRQFVq1Y2hzxFxNCaFyw6ShreNXxi6LA-SA
+
+##############################################
+GET https://localhost:3000/room-list HTTP/1.1
+HotelCode: 1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVUlkIjoiMWY4MjU5YjEtYzlhYS00N2MzLThmNzYtNTE2NjMxYTMzOWFjIiwidXNlcklkIjoiNWM3ZWYxOTIwZjM3NTI0MDA5MzIzYjZkIiwibmFtZSI6IkFkbWluIiwiaWF0IjoxNTUxODgzOTUzLCJleHAiOjE1NTE5NzAzNTN9.BuHei_tDJRQFVq1Y2hzxFxNCaFyw6ShreNXxi6LA-SA
+
+#############################################
+GET https://localhost:3000/reservation/14656 HTTP/1.1
+HotelCode: 1
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVUlkIjoiMWY4MjU5YjEtYzlhYS00N2MzLThmNzYtNTE2NjMxYTMzOWFjIiwidXNlcklkIjoiNWM3ZWYxOTIwZjM3NTI0MDA5MzIzYjZkIiwibmFtZSI6IkFkbWluIiwiaWF0IjoxNTUxODgzOTUzLCJleHAiOjE1NTE5NzAzNTN9.BuHei_tDJRQFVq1Y2hzxFxNCaFyw6ShreNXxi6LA-SA

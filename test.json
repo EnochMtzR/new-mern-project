@@ -1,0 +1,7 @@
+{
+  "_declaration": { "_attributes": { "version": "1.0", "encoding": "utf-8" } },
+  "INH_FechaHtlRS": {
+    "Success": {},
+    "Fecha": { "_attributes": { "FechaHoy": "20180209" } }
+  }
+}

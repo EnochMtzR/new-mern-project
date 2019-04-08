@@ -1,0 +1,21 @@
+@keyframes toggleShow-in {
+  0% {
+    display: block;
+    max-height: 0;
+  }
+  100% {
+    max-height: 215.36px;
+    display: block;
+  }
+}
+
+@keyframes toggleShow-out {
+  0% {
+    max-height: 215.36px;
+  }
+
+  100% {
+    max-height: 0;
+    display: none;
+  }
+}

@@ -1,0 +1,136 @@
+.About-Page {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto auto 150px;
+
+  .EasterEgg {
+    display: none;
+    position: absolute;
+    grid-template-columns: auto;
+    width: 100vw;
+    height: calc(100vh - 56.85px);
+    background-color: rgba(0, 0, 0, 0.5);
+    grid-template-rows: 15% auto 15%;
+
+    .container {
+      max-width: 300px;
+      min-width: 300px;
+      grid-template-columns: 15% auto 15%;
+      grid-column-start: 2;
+      grid-row-start: 2;
+      background-color: white;
+      display: grid;
+      grid-template-rows: auto auto auto;
+      border-radius: 20px;
+      box-shadow: 0px 0px 20px 15px #454545;
+
+      .CodeName_img {
+        width: 100%;
+        margin-top: 20px;
+        grid-column: 2;
+        grid-row: 2;
+        animation: rotate 5s linear 0s infinite;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .CodeName {
+        text-align: center;
+        color: #074769;
+        user-select: none;
+        font-family: lato;
+        font-size: 25pt;
+        font-weight: 100;
+        grid-row: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+    }
+  }
+
+  .Title {
+    text-align: center;
+    color: #074769;
+    user-select: none;
+
+    .SystemName {
+      font-size: 50pt;
+      font-family: lato;
+      font-weight: 400;
+    }
+
+    .CodeName {
+      display: block;
+      font-family: lato;
+      font-size: 30pt;
+      font-weight: 100;
+    }
+  }
+
+  .logo {
+    display: inline-block;
+    text-align: center;
+    .image {
+      width: 50%;
+    }
+  }
+
+  .Bottom {
+    text-align: center;
+
+    .developed_by {
+      font-size: 18pt;
+      margin: 0;
+      margin-top: 20px;
+    }
+
+    .inhys_logo_container {
+      .icon-Integra_Logo {
+        color: #074769;
+        font-size: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .About-Page {
+    .EasterEgg {
+      grid-template-columns: auto 745px auto;
+
+      .container {
+        grid-template-columns: 33% 33% 33%;
+        max-width: 745px;
+        min-width: auto;
+
+        .CodeName {
+          font-size: 40pt;
+        }
+      }
+    }
+
+    .logo {
+      .image {
+        width: 30%;
+      }
+    }
+
+    .Title {
+      .SystemName {
+        font-size: 60pt;
+      }
+
+      .CodeName {
+        font-size: 40pt;
+        display: inline;
+      }
+    }
+  }
+}

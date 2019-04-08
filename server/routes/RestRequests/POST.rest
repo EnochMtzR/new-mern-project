@@ -1,0 +1,86 @@
+LinuxServer: 69.164.192.136
+
+POST https://localhost:3000/login HTTP/1.1
+Content-Type: application/json
+
+{
+	"userName": "Admin",
+	"password": "630608"
+}
+
+##################################################
+POST https://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+	"inHotelId": "1",
+  	"name": "Admin",
+  	"password": "630608",
+  	"hotels": [
+		{
+      		"id": "1",
+	      	"name": "testHotel"
+    	},
+    	{
+      		"id": "2",
+	      	"name": "testHotel2"
+    	},
+    	{
+      		"id": "3",
+	      	"name": "testHotel3"
+    	},
+    	{
+      		"id": "4",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "5",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "6",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "7",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "8",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "9",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "10",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "11",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "12",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "13",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "14",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "15",
+	      	"name": "testHotel4"
+    	},
+    	{
+      		"id": "16",
+	      	"name": "testHotel4"
+    	}
+  	],
+	"accessRights": ["login"]
+}
